@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/hdmi_final/sim/pnr_timing
+vfinal_sim
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 XS9boC4KDI;Jod26Z`F2i2
+IdadQ>dNAbL4=jbJO0U4Vb3
+R0
+w1667732001
+8D:/hdmi_final/source/fin_sim.v
+FD:/hdmi_final/source/fin_sim.v
+L0 2
+Z2 OL;L;10.4;61
+!s108 1667898838.407000
+!s107 D:/hdmi_final/source/fin_sim.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/fin_sim.v|-work|work|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vtop
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 RJNz7Ae?XaRBoBV]jf@=50
+IebIc9>LW`n6c]A5=G1PM23
+R0
+w1667893254
+8top_sim.v
+Ftop_sim.v
+L0 5
+R2
+!s108 1667898837.536000
+!s107 top_sim.v|
+!s90 -reportprogress|300|top_sim.v|-work|work|
+!i113 0
+R3

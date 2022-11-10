@@ -1,0 +1,45 @@
+##### Written on 2022/11/09 21:01:43 ###############################
+
+
+##### DESIGN INFO ##################################################
+
+Top Module:
+	top
+
+Constraint File(s):
+	D:/hdmi_final/project.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 0 critical warning(s), 0 warning(s), out of 163 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

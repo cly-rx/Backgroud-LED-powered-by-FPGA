@@ -1,0 +1,926 @@
+# Reading D:/MODELSIM/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {run_post_syn_compile.tcl}
+# ** Error: (vlib-35) Failed to create directory "work".
+# 
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet work ./work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet usim D:/hdmi_final/pango_sim_libraries/usim 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet adc D:/hdmi_final/pango_sim_libraries/adc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet ddrc D:/hdmi_final/pango_sim_libraries/ddrc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet ddrphy D:/hdmi_final/pango_sim_libraries/ddrphy 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet hsst_e2 D:/hdmi_final/pango_sim_libraries/hsst_e2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet iolhr_dft D:/hdmi_final/pango_sim_libraries/iolhr_dft 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet ipal_e1 D:/hdmi_final/pango_sim_libraries/ipal_e1 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet pciegen2 D:/hdmi_final/pango_sim_libraries/pciegen2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 22:21:23 on Nov 07,2022
+# vlog -reportprogress 300 top_syn.vm -work work 
+# -- Compiling module judge_rest
+# -- Compiling module cal_block_rest
+# -- Compiling module judge_rest_1
+# -- Compiling module cal_block_rest_1
+# -- Compiling module judge_rest_2
+# -- Compiling module cal_block_rest_2
+# -- Compiling module judge_rest_3
+# -- Compiling module cal_block_rest_3
+# -- Compiling module data_to_block
+# -- Compiling module areaconfig_up
+# -- Compiling module cal_block
+# -- Compiling module areaconfig_up_1
+# -- Compiling module cal_block_1
+# -- Compiling module areaconfig_up_2
+# -- Compiling module cal_block_2
+# -- Compiling module areaconfig_up_3
+# -- Compiling module cal_block_3
+# -- Compiling module areaconfig_up_4
+# -- Compiling module cal_block_4
+# -- Compiling module areaconfig_up_5
+# -- Compiling module cal_block_5
+# -- Compiling module areaconfig_up_6
+# -- Compiling module cal_block_6
+# -- Compiling module areaconfig_up_7
+# -- Compiling module cal_block_7
+# -- Compiling module areaconfig_up_8
+# -- Compiling module cal_block_8
+# -- Compiling module areaconfig_up_9
+# -- Compiling module cal_block_9
+# -- Compiling module areaconfig_up_10
+# -- Compiling module cal_block_10
+# -- Compiling module areaconfig_up_11
+# -- Compiling module cal_block_11
+# -- Compiling module areaconfig_up_12
+# -- Compiling module cal_block_12
+# -- Compiling module areaconfig_up_13
+# -- Compiling module cal_block_13
+# -- Compiling module areaconfig_up_14
+# -- Compiling module cal_block_14
+# -- Compiling module areaconfig_up_15
+# -- Compiling module cal_block_15
+# -- Compiling module areaconfig_up_16
+# -- Compiling module cal_block_16
+# -- Compiling module areaconfig_up_17
+# -- Compiling module cal_block_17
+# -- Compiling module areaconfig_up_18
+# -- Compiling module cal_block_18
+# -- Compiling module areaconfig_up_19
+# -- Compiling module cal_block_19
+# -- Compiling module areaconfig_up_20
+# -- Compiling module cal_block_20
+# -- Compiling module areaconfig_up_21
+# -- Compiling module cal_block_21
+# -- Compiling module areaconfig_up_22
+# -- Compiling module cal_block_22
+# -- Compiling module areaconfig_up_23
+# -- Compiling module cal_block_23
+# -- Compiling module areaconfig_up_24
+# -- Compiling module cal_block_24
+# -- Compiling module areaconfig_up_25
+# -- Compiling module cal_block_25
+# -- Compiling module areaconfig_up_26
+# -- Compiling module cal_block_26
+# -- Compiling module areaconfig_up_27
+# -- Compiling module cal_block_27
+# -- Compiling module areaconfig_up_28
+# -- Compiling module cal_block_28
+# -- Compiling module areaconfig_up_29
+# -- Compiling module cal_block_29
+# -- Compiling module areaconfig_down
+# -- Compiling module cal_block_30
+# -- Compiling module areaconfig_down_1
+# -- Compiling module cal_block_31
+# -- Compiling module areaconfig_down_2
+# -- Compiling module cal_block_32
+# -- Compiling module areaconfig_down_3
+# -- Compiling module cal_block_33
+# -- Compiling module areaconfig_down_4
+# -- Compiling module cal_block_34
+# -- Compiling module areaconfig_down_5
+# -- Compiling module cal_block_35
+# -- Compiling module areaconfig_down_6
+# -- Compiling module cal_block_36
+# -- Compiling module areaconfig_down_7
+# -- Compiling module cal_block_37
+# -- Compiling module areaconfig_down_8
+# -- Compiling module cal_block_38
+# -- Compiling module areaconfig_down_9
+# -- Compiling module cal_block_39
+# -- Compiling module areaconfig_down_10
+# -- Compiling module cal_block_40
+# -- Compiling module areaconfig_down_11
+# -- Compiling module cal_block_41
+# -- Compiling module areaconfig_down_12
+# -- Compiling module cal_block_42
+# -- Compiling module areaconfig_down_13
+# -- Compiling module cal_block_43
+# -- Compiling module areaconfig_down_14
+# -- Compiling module cal_block_44
+# -- Compiling module areaconfig_down_15
+# -- Compiling module cal_block_45
+# -- Compiling module areaconfig_down_16
+# -- Compiling module cal_block_46
+# -- Compiling module areaconfig_down_17
+# -- Compiling module cal_block_47
+# -- Compiling module areaconfig_down_18
+# -- Compiling module cal_block_48
+# -- Compiling module areaconfig_down_19
+# -- Compiling module cal_block_49
+# -- Compiling module areaconfig_down_20
+# -- Compiling module cal_block_50
+# -- Compiling module areaconfig_down_21
+# -- Compiling module cal_block_51
+# -- Compiling module areaconfig_down_22
+# -- Compiling module cal_block_52
+# -- Compiling module areaconfig_down_23
+# -- Compiling module cal_block_53
+# -- Compiling module areaconfig_down_24
+# -- Compiling module cal_block_54
+# -- Compiling module areaconfig_down_25
+# -- Compiling module cal_block_55
+# -- Compiling module areaconfig_down_26
+# -- Compiling module cal_block_56
+# -- Compiling module areaconfig_down_27
+# -- Compiling module cal_block_57
+# -- Compiling module areaconfig_down_28
+# -- Compiling module cal_block_58
+# -- Compiling module areaconfig_down_29
+# -- Compiling module cal_block_59
+# -- Compiling module areaconfig_left
+# -- Compiling module cal_block_60
+# -- Compiling module areaconfig_left_1
+# -- Compiling module cal_block_61
+# -- Compiling module areaconfig_left_2
+# -- Compiling module cal_block_62
+# -- Compiling module areaconfig_left_3
+# -- Compiling module cal_block_63
+# -- Compiling module areaconfig_left_4
+# -- Compiling module cal_block_64
+# -- Compiling module areaconfig_left_5
+# -- Compiling module cal_block_65
+# -- Compiling module areaconfig_left_6
+# -- Compiling module cal_block_66
+# -- Compiling module areaconfig_left_7
+# -- Compiling module cal_block_67
+# -- Compiling module areaconfig_left_8
+# -- Compiling module cal_block_68
+# -- Compiling module areaconfig_left_9
+# -- Compiling module cal_block_69
+# -- Compiling module areaconfig_left_10
+# -- Compiling module cal_block_70
+# -- Compiling module areaconfig_left_11
+# -- Compiling module cal_block_71
+# -- Compiling module areaconfig_left_12
+# -- Compiling module cal_block_72
+# -- Compiling module areaconfig_left_13
+# -- Compiling module cal_block_73
+# -- Compiling module areaconfig_left_14
+# -- Compiling module cal_block_74
+# -- Compiling module areaconfig_left_15
+# -- Compiling module cal_block_75
+# -- Compiling module areaconfig_right
+# -- Compiling module cal_block_76
+# -- Compiling module areaconfig_right_1
+# -- Compiling module cal_block_77
+# -- Compiling module areaconfig_right_2
+# -- Compiling module cal_block_78
+# -- Compiling module areaconfig_right_3
+# -- Compiling module cal_block_79
+# -- Compiling module areaconfig_right_4
+# -- Compiling module cal_block_80
+# -- Compiling module areaconfig_right_5
+# -- Compiling module cal_block_81
+# -- Compiling module areaconfig_right_6
+# -- Compiling module cal_block_82
+# -- Compiling module areaconfig_right_7
+# -- Compiling module cal_block_83
+# -- Compiling module areaconfig_right_8
+# -- Compiling module cal_block_84
+# -- Compiling module areaconfig_right_9
+# -- Compiling module cal_block_85
+# -- Compiling module areaconfig_right_10
+# -- Compiling module cal_block_86
+# -- Compiling module areaconfig_right_11
+# -- Compiling module cal_block_87
+# -- Compiling module areaconfig_right_12
+# -- Compiling module cal_block_88
+# -- Compiling module areaconfig_right_13
+# -- Compiling module cal_block_89
+# -- Compiling module areaconfig_right_14
+# -- Compiling module cal_block_90
+# -- Compiling module areaconfig_right_15
+# -- Compiling module cal_block_91
+# -- Compiling module divider_cell
+# -- Compiling module divider_cell_unq102
+# -- Compiling module divider_cell_unq104
+# -- Compiling module divider_cell_unq106
+# -- Compiling module divider_cell_unq108
+# -- Compiling module divider_cell_unq110
+# -- Compiling module divider_cell_unq112
+# -- Compiling module divider_cell_unq114
+# -- Compiling module divider_cell_unq116
+# -- Compiling module divider_cell_unq118
+# -- Compiling module divider_cell_unq120
+# -- Compiling module divider_cell_unq122
+# -- Compiling module divider_cell_unq124
+# -- Compiling module divider_cell_unq126
+# -- Compiling module divider_cell_unq128
+# -- Compiling module divider_cell_unq130
+# -- Compiling module divider_cell_unq132
+# -- Compiling module divider_man
+# -- Compiling module divider_cell_unq134
+# -- Compiling module divider_cell_unq136
+# -- Compiling module divider_cell_unq138
+# -- Compiling module divider_cell_unq140
+# -- Compiling module divider_cell_unq142
+# -- Compiling module divider_cell_unq144
+# -- Compiling module divider_cell_unq146
+# -- Compiling module divider_cell_unq148
+# -- Compiling module divider_cell_unq150
+# -- Compiling module divider_cell_unq152
+# -- Compiling module divider_cell_unq154
+# -- Compiling module divider_cell_unq156
+# -- Compiling module divider_cell_unq158
+# -- Compiling module divider_cell_unq160
+# -- Compiling module divider_cell_unq162
+# -- Compiling module divider_cell_unq164
+# -- Compiling module divider_cell_unq166
+# -- Compiling module divider_man_unq6
+# -- Compiling module divider_cell_unq168
+# -- Compiling module divider_cell_unq170
+# -- Compiling module divider_cell_unq172
+# -- Compiling module divider_cell_unq174
+# -- Compiling module divider_cell_unq176
+# -- Compiling module divider_cell_unq178
+# -- Compiling module divider_cell_unq180
+# -- Compiling module divider_cell_unq182
+# -- Compiling module divider_cell_unq184
+# -- Compiling module divider_cell_unq186
+# -- Compiling module divider_cell_unq188
+# -- Compiling module divider_cell_unq190
+# -- Compiling module divider_cell_unq192
+# -- Compiling module divider_cell_unq194
+# -- Compiling module divider_cell_unq196
+# -- Compiling module divider_cell_unq198
+# -- Compiling module divider_cell_unq200
+# -- Compiling module divider_man_unq8
+# -- Compiling module block_re
+# -- Compiling module ipm_distributed_sdpram_v1_2_G_re
+# -- Compiling module G_re
+# -- Compiling module register
+# -- Compiling module hdmi_input
+# -- Compiling module cl_xiz_0
+# -- Compiling module clk_wiz_2
+# -- Compiling module collect
+# -- Compiling module choose
+# -- Compiling module outputdata
+# -- Compiling module led
+# -- Compiling module led_top
+# -- Compiling module collect_1
+# -- Compiling module choose_unq8
+# -- Compiling module outputdata_unq8
+# -- Compiling module led_1
+# -- Compiling module led_top_1
+# -- Compiling module collect_1_unq4
+# -- Compiling module choose_unq10
+# -- Compiling module outputdata_unq10
+# -- Compiling module led_1_unq4
+# -- Compiling module led_top_1_unq4
+# -- Compiling module collect_unq4
+# -- Compiling module choose_unq12
+# -- Compiling module outputdata_unq12
+# -- Compiling module led_unq4
+# -- Compiling module led_top_unq4
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:21:24 on Nov 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 22:21:24 on Nov 07,2022
+# vlog -reportprogress 300 D:/hdmi_final/source/fin_sim.v -work work 
+# -- Compiling module final_sim
+# 
+# Top level modules:
+# 	final_sim
+# End time: 22:21:24 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# do {run_post_syn_simulate.tcl}
+# vsim -gui -do "do {run_post_syn_compile.tcl};do {run_post_syn_simulate.tcl}" -l run_post_syn_simulate.log 
+# Start time: 22:21:24 on Nov 07,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/hdmi_final/sim/synth/work.final_sim
+# Loading work.final_sim
+# Refreshing D:/hdmi_final/sim/synth/work.top
+# Loading work.top
+# Loading usim.GTP_INBUF
+# Loading usim.GTP_GRS
+# Loading usim.GTP_LUT5CARRY
+# Loading usim.GTP_INV
+# Loading usim.GTP_LUT1
+# Loading usim.GTP_LUT2
+# Loading usim.GTP_LUT3
+# Loading usim.GTP_LUT4
+# Loading usim.GTP_LUT5
+# Loading usim.GTP_DFF_PE
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_rest
+# Loading work.cal_block_rest
+# Loading usim.GTP_DFF_E
+# Loading usim.GTP_LUT5M
+# Refreshing D:/hdmi_final/sim/synth/work.judge_rest
+# Loading work.judge_rest
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_rest_1
+# Loading work.cal_block_rest_1
+# Refreshing D:/hdmi_final/sim/synth/work.judge_rest_1
+# Loading work.judge_rest_1
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_rest_2
+# Loading work.cal_block_rest_2
+# Refreshing D:/hdmi_final/sim/synth/work.judge_rest_2
+# Loading work.judge_rest_2
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_rest_3
+# Loading work.cal_block_rest_3
+# Refreshing D:/hdmi_final/sim/synth/work.judge_rest_3
+# Loading work.judge_rest_3
+# Refreshing D:/hdmi_final/sim/synth/work.data_to_block
+# Loading work.data_to_block
+# Loading usim.GTP_DFF_RE
+# Loading usim.GTP_DFF
+# Loading usim.GTP_DFF_CE
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block
+# Loading work.cal_block
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up
+# Loading work.areaconfig_up
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_1
+# Loading work.cal_block_1
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_1
+# Loading work.areaconfig_up_1
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_2
+# Loading work.cal_block_2
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_2
+# Loading work.areaconfig_up_2
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_3
+# Loading work.cal_block_3
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_3
+# Loading work.areaconfig_up_3
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_4
+# Loading work.cal_block_4
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_4
+# Loading work.areaconfig_up_4
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_5
+# Loading work.cal_block_5
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_5
+# Loading work.areaconfig_up_5
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_6
+# Loading work.cal_block_6
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_6
+# Loading work.areaconfig_up_6
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_7
+# Loading work.cal_block_7
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_7
+# Loading work.areaconfig_up_7
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_8
+# Loading work.cal_block_8
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_8
+# Loading work.areaconfig_up_8
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_9
+# Loading work.cal_block_9
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_9
+# Loading work.areaconfig_up_9
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_10
+# Loading work.cal_block_10
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_10
+# Loading work.areaconfig_up_10
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_11
+# Loading work.cal_block_11
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_11
+# Loading work.areaconfig_up_11
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_12
+# Loading work.cal_block_12
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_12
+# Loading work.areaconfig_up_12
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_13
+# Loading work.cal_block_13
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_13
+# Loading work.areaconfig_up_13
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_14
+# Loading work.cal_block_14
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_14
+# Loading work.areaconfig_up_14
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_15
+# Loading work.cal_block_15
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_15
+# Loading work.areaconfig_up_15
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_16
+# Loading work.cal_block_16
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_16
+# Loading work.areaconfig_up_16
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_17
+# Loading work.cal_block_17
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_17
+# Loading work.areaconfig_up_17
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_18
+# Loading work.cal_block_18
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_18
+# Loading work.areaconfig_up_18
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_19
+# Loading work.cal_block_19
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_19
+# Loading work.areaconfig_up_19
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_20
+# Loading work.cal_block_20
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_20
+# Loading work.areaconfig_up_20
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_21
+# Loading work.cal_block_21
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_21
+# Loading work.areaconfig_up_21
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_22
+# Loading work.cal_block_22
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_22
+# Loading work.areaconfig_up_22
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_23
+# Loading work.cal_block_23
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_23
+# Loading work.areaconfig_up_23
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_24
+# Loading work.cal_block_24
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_24
+# Loading work.areaconfig_up_24
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_25
+# Loading work.cal_block_25
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_25
+# Loading work.areaconfig_up_25
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_26
+# Loading work.cal_block_26
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_26
+# Loading work.areaconfig_up_26
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_27
+# Loading work.cal_block_27
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_27
+# Loading work.areaconfig_up_27
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_28
+# Loading work.cal_block_28
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_28
+# Loading work.areaconfig_up_28
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_29
+# Loading work.cal_block_29
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_up_29
+# Loading work.areaconfig_up_29
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_30
+# Loading work.cal_block_30
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down
+# Loading work.areaconfig_down
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_31
+# Loading work.cal_block_31
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_1
+# Loading work.areaconfig_down_1
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_32
+# Loading work.cal_block_32
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_2
+# Loading work.areaconfig_down_2
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_33
+# Loading work.cal_block_33
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_3
+# Loading work.areaconfig_down_3
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_34
+# Loading work.cal_block_34
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_4
+# Loading work.areaconfig_down_4
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_35
+# Loading work.cal_block_35
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_5
+# Loading work.areaconfig_down_5
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_36
+# Loading work.cal_block_36
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_6
+# Loading work.areaconfig_down_6
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_37
+# Loading work.cal_block_37
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_7
+# Loading work.areaconfig_down_7
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_38
+# Loading work.cal_block_38
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_8
+# Loading work.areaconfig_down_8
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_39
+# Loading work.cal_block_39
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_9
+# Loading work.areaconfig_down_9
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_40
+# Loading work.cal_block_40
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_10
+# Loading work.areaconfig_down_10
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_41
+# Loading work.cal_block_41
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_11
+# Loading work.areaconfig_down_11
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_42
+# Loading work.cal_block_42
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_12
+# Loading work.areaconfig_down_12
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_43
+# Loading work.cal_block_43
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_13
+# Loading work.areaconfig_down_13
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_44
+# Loading work.cal_block_44
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_14
+# Loading work.areaconfig_down_14
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_45
+# Loading work.cal_block_45
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_15
+# Loading work.areaconfig_down_15
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_46
+# Loading work.cal_block_46
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_16
+# Loading work.areaconfig_down_16
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_47
+# Loading work.cal_block_47
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_17
+# Loading work.areaconfig_down_17
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_48
+# Loading work.cal_block_48
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_18
+# Loading work.areaconfig_down_18
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_49
+# Loading work.cal_block_49
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_19
+# Loading work.areaconfig_down_19
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_50
+# Loading work.cal_block_50
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_20
+# Loading work.areaconfig_down_20
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_51
+# Loading work.cal_block_51
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_21
+# Loading work.areaconfig_down_21
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_52
+# Loading work.cal_block_52
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_22
+# Loading work.areaconfig_down_22
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_53
+# Loading work.cal_block_53
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_23
+# Loading work.areaconfig_down_23
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_54
+# Loading work.cal_block_54
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_24
+# Loading work.areaconfig_down_24
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_55
+# Loading work.cal_block_55
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_25
+# Loading work.areaconfig_down_25
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_56
+# Loading work.cal_block_56
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_26
+# Loading work.areaconfig_down_26
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_57
+# Loading work.cal_block_57
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_27
+# Loading work.areaconfig_down_27
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_58
+# Loading work.cal_block_58
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_28
+# Loading work.areaconfig_down_28
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_59
+# Loading work.cal_block_59
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_down_29
+# Loading work.areaconfig_down_29
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_60
+# Loading work.cal_block_60
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left
+# Loading work.areaconfig_left
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_61
+# Loading work.cal_block_61
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_1
+# Loading work.areaconfig_left_1
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_62
+# Loading work.cal_block_62
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_2
+# Loading work.areaconfig_left_2
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_63
+# Loading work.cal_block_63
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_3
+# Loading work.areaconfig_left_3
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_64
+# Loading work.cal_block_64
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_4
+# Loading work.areaconfig_left_4
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_65
+# Loading work.cal_block_65
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_5
+# Loading work.areaconfig_left_5
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_66
+# Loading work.cal_block_66
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_6
+# Loading work.areaconfig_left_6
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_67
+# Loading work.cal_block_67
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_7
+# Loading work.areaconfig_left_7
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_68
+# Loading work.cal_block_68
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_8
+# Loading work.areaconfig_left_8
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_69
+# Loading work.cal_block_69
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_9
+# Loading work.areaconfig_left_9
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_70
+# Loading work.cal_block_70
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_10
+# Loading work.areaconfig_left_10
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_71
+# Loading work.cal_block_71
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_11
+# Loading work.areaconfig_left_11
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_72
+# Loading work.cal_block_72
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_12
+# Loading work.areaconfig_left_12
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_73
+# Loading work.cal_block_73
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_13
+# Loading work.areaconfig_left_13
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_74
+# Loading work.cal_block_74
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_14
+# Loading work.areaconfig_left_14
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_75
+# Loading work.cal_block_75
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_left_15
+# Loading work.areaconfig_left_15
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_76
+# Loading work.cal_block_76
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right
+# Loading work.areaconfig_right
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_77
+# Loading work.cal_block_77
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_1
+# Loading work.areaconfig_right_1
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_78
+# Loading work.cal_block_78
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_2
+# Loading work.areaconfig_right_2
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_79
+# Loading work.cal_block_79
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_3
+# Loading work.areaconfig_right_3
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_80
+# Loading work.cal_block_80
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_4
+# Loading work.areaconfig_right_4
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_81
+# Loading work.cal_block_81
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_5
+# Loading work.areaconfig_right_5
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_82
+# Loading work.cal_block_82
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_6
+# Loading work.areaconfig_right_6
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_83
+# Loading work.cal_block_83
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_7
+# Loading work.areaconfig_right_7
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_84
+# Loading work.cal_block_84
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_8
+# Loading work.areaconfig_right_8
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_85
+# Loading work.cal_block_85
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_9
+# Loading work.areaconfig_right_9
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_86
+# Loading work.cal_block_86
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_10
+# Loading work.areaconfig_right_10
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_87
+# Loading work.cal_block_87
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_11
+# Loading work.areaconfig_right_11
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_88
+# Loading work.cal_block_88
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_12
+# Loading work.areaconfig_right_12
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_89
+# Loading work.cal_block_89
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_13
+# Loading work.areaconfig_right_13
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_90
+# Loading work.cal_block_90
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_14
+# Loading work.areaconfig_right_14
+# Refreshing D:/hdmi_final/sim/synth/work.cal_block_91
+# Loading work.cal_block_91
+# Refreshing D:/hdmi_final/sim/synth/work.areaconfig_right_15
+# Loading work.areaconfig_right_15
+# Loading usim.GTP_OUTBUF
+# Refreshing D:/hdmi_final/sim/synth/work.hdmi_input
+# Loading work.hdmi_input
+# Refreshing D:/hdmi_final/sim/synth/work.divider_man
+# Loading work.divider_man
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell
+# Loading work.divider_cell
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq102
+# Loading work.divider_cell_unq102
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq104
+# Loading work.divider_cell_unq104
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq106
+# Loading work.divider_cell_unq106
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq108
+# Loading work.divider_cell_unq108
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq110
+# Loading work.divider_cell_unq110
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq112
+# Loading work.divider_cell_unq112
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq114
+# Loading work.divider_cell_unq114
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq116
+# Loading work.divider_cell_unq116
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq118
+# Loading work.divider_cell_unq118
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq120
+# Loading work.divider_cell_unq120
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq122
+# Loading work.divider_cell_unq122
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq124
+# Loading work.divider_cell_unq124
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq126
+# Loading work.divider_cell_unq126
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq128
+# Loading work.divider_cell_unq128
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq130
+# Loading work.divider_cell_unq130
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq132
+# Loading work.divider_cell_unq132
+# Refreshing D:/hdmi_final/sim/synth/work.divider_man_unq6
+# Loading work.divider_man_unq6
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq134
+# Loading work.divider_cell_unq134
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq136
+# Loading work.divider_cell_unq136
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq138
+# Loading work.divider_cell_unq138
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq140
+# Loading work.divider_cell_unq140
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq142
+# Loading work.divider_cell_unq142
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq144
+# Loading work.divider_cell_unq144
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq146
+# Loading work.divider_cell_unq146
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq148
+# Loading work.divider_cell_unq148
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq150
+# Loading work.divider_cell_unq150
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq152
+# Loading work.divider_cell_unq152
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq154
+# Loading work.divider_cell_unq154
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq156
+# Loading work.divider_cell_unq156
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq158
+# Loading work.divider_cell_unq158
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq160
+# Loading work.divider_cell_unq160
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq162
+# Loading work.divider_cell_unq162
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq164
+# Loading work.divider_cell_unq164
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq166
+# Loading work.divider_cell_unq166
+# Refreshing D:/hdmi_final/sim/synth/work.divider_man_unq8
+# Loading work.divider_man_unq8
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq168
+# Loading work.divider_cell_unq168
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq170
+# Loading work.divider_cell_unq170
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq172
+# Loading work.divider_cell_unq172
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq174
+# Loading work.divider_cell_unq174
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq176
+# Loading work.divider_cell_unq176
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq178
+# Loading work.divider_cell_unq178
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq180
+# Loading work.divider_cell_unq180
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq182
+# Loading work.divider_cell_unq182
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq184
+# Loading work.divider_cell_unq184
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq186
+# Loading work.divider_cell_unq186
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq188
+# Loading work.divider_cell_unq188
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq190
+# Loading work.divider_cell_unq190
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq192
+# Loading work.divider_cell_unq192
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq194
+# Loading work.divider_cell_unq194
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq196
+# Loading work.divider_cell_unq196
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq198
+# Loading work.divider_cell_unq198
+# Refreshing D:/hdmi_final/sim/synth/work.divider_cell_unq200
+# Loading work.divider_cell_unq200
+# Refreshing D:/hdmi_final/sim/synth/work.block_re
+# Loading work.block_re
+# Loading usim.GTP_DFF_C
+# Refreshing D:/hdmi_final/sim/synth/work.register
+# Loading work.register
+# Refreshing D:/hdmi_final/sim/synth/work.G_re
+# Loading work.G_re
+# Refreshing D:/hdmi_final/sim/synth/work.ipm_distributed_sdpram_v1_2_G_re
+# Loading work.ipm_distributed_sdpram_v1_2_G_re
+# Loading usim.GTP_RAM16X1DP
+# Loading usim.GTP_MUX2LUT6
+# Refreshing D:/hdmi_final/sim/synth/work.cl_xiz_0
+# Loading work.cl_xiz_0
+# Loading usim.GTP_PLL_E1
+# Refreshing D:/hdmi_final/sim/synth/work.clk_wiz_2
+# Loading work.clk_wiz_2
+# Refreshing D:/hdmi_final/sim/synth/work.led_top
+# Loading work.led_top
+# Refreshing D:/hdmi_final/sim/synth/work.collect
+# Loading work.collect
+# Loading usim.GTP_MUX2LUT7
+# Loading usim.GTP_MUX2LUT8
+# Refreshing D:/hdmi_final/sim/synth/work.led
+# Loading work.led
+# Refreshing D:/hdmi_final/sim/synth/work.outputdata
+# Loading work.outputdata
+# Refreshing D:/hdmi_final/sim/synth/work.choose
+# Loading work.choose
+# Loading usim.GTP_DFF_SE
+# Refreshing D:/hdmi_final/sim/synth/work.led_top_1
+# Loading work.led_top_1
+# Refreshing D:/hdmi_final/sim/synth/work.collect_1
+# Loading work.collect_1
+# Refreshing D:/hdmi_final/sim/synth/work.led_1
+# Loading work.led_1
+# Refreshing D:/hdmi_final/sim/synth/work.outputdata_unq8
+# Loading work.outputdata_unq8
+# Refreshing D:/hdmi_final/sim/synth/work.choose_unq8
+# Loading work.choose_unq8
+# Refreshing D:/hdmi_final/sim/synth/work.led_top_1_unq4
+# Loading work.led_top_1_unq4
+# Refreshing D:/hdmi_final/sim/synth/work.collect_1_unq4
+# Loading work.collect_1_unq4
+# Refreshing D:/hdmi_final/sim/synth/work.led_1_unq4
+# Loading work.led_1_unq4
+# Refreshing D:/hdmi_final/sim/synth/work.outputdata_unq10
+# Loading work.outputdata_unq10
+# Refreshing D:/hdmi_final/sim/synth/work.choose_unq10
+# Loading work.choose_unq10
+# Refreshing D:/hdmi_final/sim/synth/work.led_top_unq4
+# Loading work.led_top_unq4
+# Refreshing D:/hdmi_final/sim/synth/work.collect_unq4
+# Loading work.collect_unq4
+# Refreshing D:/hdmi_final/sim/synth/work.led_unq4
+# Loading work.led_unq4
+# Refreshing D:/hdmi_final/sim/synth/work.outputdata_unq12
+# Loading work.outputdata_unq12
+# Refreshing D:/hdmi_final/sim/synth/work.choose_unq12
+# Loading work.choose_unq12
+# Loading usim.GTP_DFF_R
+# Loading usim.INT_LUTMUX4_UDP
+# Loading usim.INT_LUTMUX2_UDP
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# End time: 22:22:47 on Nov 07,2022, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 1

@@ -1,0 +1,502 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/hdmi_final/sim/behav
+vareaconfig_down
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 @_2E;6EL9VNgM_kZlK<N63
+IjcWAk0k;Pm>Fo_][e^R`o3
+R0
+w1667702925
+8D:/hdmi_final/source/source/areaconfi2.v
+FD:/hdmi_final/source/source/areaconfi2.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1667906780.722000
+!s107 D:/hdmi_final/source/source/areaconfi2.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/areaconfi2.v|-work|work|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vareaconfig_left
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 a35TZDCN;3=kgG5XZCF8b1
+I5j915VCojK_EaSzM4[9fB2
+R0
+w1667702969
+8D:/hdmi_final/source/source/areaconfig3.v
+FD:/hdmi_final/source/source/areaconfig3.v
+L0 1
+R2
+!s108 1667906780.285000
+!s107 D:/hdmi_final/source/source/areaconfig3.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/areaconfig3.v|-work|work|
+!i113 0
+R3
+vareaconfig_right
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 `Vjg;SCi[Le`@eQigZ]RL2
+Ie=YE69@8K3UQVMMHkon7I0
+R0
+w1667702911
+8D:/hdmi_final/source/source/areaconfig4.v
+FD:/hdmi_final/source/source/areaconfig4.v
+L0 1
+R2
+!s108 1667906780.385000
+!s107 D:/hdmi_final/source/source/areaconfig4.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/areaconfig4.v|-work|work|
+!i113 0
+R3
+vareaconfig_up
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 a47Fh`APfFMNzOM:R=>g<1
+IhiWBTdB>e45oif6O54Wj_0
+R0
+w1667702937
+8D:/hdmi_final/source/source/areaconfig.v
+FD:/hdmi_final/source/source/areaconfig.v
+L0 1
+R2
+!s108 1667906780.087000
+!s107 D:/hdmi_final/source/source/areaconfig.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/areaconfig.v|-work|work|
+!i113 0
+R3
+vblock_re
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 YjCVmee`GVCRd5jZ2HmOF2
+IC_B94c>k3`;<YJkA=4^RQ0
+R0
+w1667639537
+8D:/hdmi_final/source/source/block_re.v
+FD:/hdmi_final/source/source/block_re.v
+L0 1
+R2
+!s108 1667906780.417000
+!s107 D:/hdmi_final/source/source/block_re.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/block_re.v|-work|work|
+!i113 0
+R3
+vcal_block
+Z4 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 03`@0RzK@7<5:>ZI7HhDn2
+IWGBm1Z?SP9ETQ2J_Xf52C0
+!s105 cal_block_sv_unit
+S1
+R0
+w1667797718
+8D:/hdmi_final/source/source/cal_block.sv
+FD:/hdmi_final/source/source/cal_block.sv
+Z5 L0 23
+R2
+!s108 1667906780.319000
+!s107 D:/hdmi_final/source/source/cal_block.sv|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/cal_block.sv|-work|work|
+!i113 0
+R3
+vcal_block_rest
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 F:_@fOYSj6O=gQi4NU@6T0
+IdYX@9[EaWbhd;]XTADTK80
+R0
+w1667797656
+8D:/hdmi_final/source/source/cal_block_rest.v
+FD:/hdmi_final/source/source/cal_block_rest.v
+L0 1
+R2
+!s108 1667906780.221000
+!s107 D:/hdmi_final/source/source/cal_block_rest.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/cal_block_rest.v|-work|work|
+!i113 0
+R3
+vchoose
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 g>gHEP3>6E;C>X9I]C<8f2
+ITjid4FdlOzPD4dRZSaSgz3
+R0
+w1667634641
+8D:/hdmi_final/source/source/choose.v
+FD:/hdmi_final/source/source/choose.v
+L0 1
+R2
+!s108 1667906780.484000
+!s107 D:/hdmi_final/source/source/choose.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/choose.v|-work|work|
+!i113 0
+R3
+vcl_xiz_0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 W4SUaXe`BD0>bej[5^hzM1
+IXQ83n<XjNf4<L15Ghz2@80
+R0
+w1667718999
+8D:/hdmi_final/ipcore/cl_xiz_0/cl_xiz_0.v
+FD:/hdmi_final/ipcore/cl_xiz_0/cl_xiz_0.v
+Z6 L0 20
+R2
+!s108 1667906780.755000
+!s107 D:/hdmi_final/ipcore/cl_xiz_0/cl_xiz_0.v|
+!s90 -reportprogress|300|D:/hdmi_final/ipcore/cl_xiz_0/cl_xiz_0.v|-work|work|
+!i113 0
+R3
+vclk_wiz_2
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^@fUU;B2WZB8j40@<Yi4]1
+INSUilaEJBVN:8QJ2g0g[n3
+R0
+w1667719134
+8D:/hdmi_final/ipcore/clk_wiz_2/clk_wiz_2.v
+FD:/hdmi_final/ipcore/clk_wiz_2/clk_wiz_2.v
+R6
+R2
+!s108 1667906780.857000
+!s107 D:/hdmi_final/ipcore/clk_wiz_2/clk_wiz_2.v|
+!s90 -reportprogress|300|D:/hdmi_final/ipcore/clk_wiz_2/clk_wiz_2.v|-work|work|
+!i113 0
+R3
+vcollect
+R4
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 b@igPcUNe:ldPbmP^m]593
+IK8MgQ;>Ga=6f^BomefNF:3
+!s105 collect_sv_unit
+S1
+R0
+w1667632342
+8D:/hdmi_final/source/source/collect.sv
+FD:/hdmi_final/source/source/collect.sv
+R5
+R2
+!s108 1667906780.450000
+!s107 D:/hdmi_final/source/source/collect.sv|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/collect.sv|-work|work|
+!i113 0
+R3
+vdata_to_block
+R4
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 b`ajR7KN0Je66ANzA:8OP2
+I[kAZg8WWiKBLY=o>E[o:K2
+!s105 data_to_block_sv_unit
+S1
+R0
+w1667797494
+8D:/hdmi_final/source/source/data_to_block.sv
+FD:/hdmi_final/source/source/data_to_block.sv
+R5
+R2
+!s108 1667906780.120000
+!s107 D:/hdmi_final/source/source/data_to_block.sv|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/data_to_block.sv|-work|work|
+!i113 0
+R3
+vdivider_cell
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 P03adf;ZS_9mB:i8X=glX0
+IW0S^o_RPU<AXl?d3R:^;Z2
+R0
+w1667641124
+8D:/hdmi_final/source/source/divider_cell.v
+FD:/hdmi_final/source/source/divider_cell.v
+L0 2
+R2
+!s108 1667906780.155000
+!s107 D:/hdmi_final/source/source/divider_cell.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/divider_cell.v|-work|work|
+!i113 0
+R3
+vdivider_man
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 1BZ`;ca?Zk:CPUn5MD1oa0
+IOQQNTH^F?:DF8GIdo8HOK3
+R0
+w1667641713
+8D:/hdmi_final/source/source/divider.v
+FD:/hdmi_final/source/source/divider.v
+L0 3
+R2
+!s108 1667906780.253000
+!s107 D:/hdmi_final/source/source/divider.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/divider.v|-work|work|
+!i113 0
+R3
+vfinal_sim
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 XS9boC4KDI;Jod26Z`F2i2
+IdadQ>dNAbL4=jbJO0U4Vb3
+R0
+w1667732001
+8D:/hdmi_final/source/fin_sim.v
+FD:/hdmi_final/source/fin_sim.v
+L0 2
+R2
+!s108 1667906780.892000
+!s107 D:/hdmi_final/source/fin_sim.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/fin_sim.v|-work|work|
+!i113 0
+R3
+vG_re
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ZdB@N9EoW^8Zo1AI@;>Ii3
+IZTXB20hUKL_jf=73z[W633
+R0
+Z7 w1667719077
+8D:/hdmi_final/ipcore/G_re/G_re.v
+FD:/hdmi_final/ipcore/G_re/G_re.v
+R6
+R2
+!s108 1667906780.824000
+!s107 D:/hdmi_final/ipcore/G_re/G_re.v|
+!s90 -reportprogress|300|D:/hdmi_final/ipcore/G_re/G_re.v|-work|work|
+!i113 0
+R3
+n@g_re
+vhdmi_input
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 bbjf3Bh_ARLJg7j8Wh@Rk0
+IZ4l6XB_5Y0Yhz:55cMOfL1
+R0
+w1667906737
+8D:/hdmi_final/source/source/hdmi_input.v
+FD:/hdmi_final/source/source/hdmi_input.v
+R5
+R2
+!s108 1667906780.615000
+!s107 D:/hdmi_final/source/source/hdmi_input.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/hdmi_input.v|-work|work|
+!i113 0
+R3
+vipm_distributed_sdpram_v1_2_G_re
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Tle7Q4TR;OZXaCIl5cI;j3
+IV3mK5TMN8AB:gdnV:zG243
+R0
+R7
+8D:/hdmi_final/ipcore/G_re/rtl/ipm_distributed_sdpram_v1_2_G_re.v
+FD:/hdmi_final/ipcore/G_re/rtl/ipm_distributed_sdpram_v1_2_G_re.v
+L0 22
+R2
+!s108 1667906780.790000
+!s107 D:/hdmi_final/ipcore/G_re/rtl/ipm_distributed_sdpram_v1_2_G_re.v|
+!s90 -reportprogress|300|D:/hdmi_final/ipcore/G_re/rtl/ipm_distributed_sdpram_v1_2_G_re.v|-work|work|
+!i113 0
+R3
+nipm_distributed_sdpram_v1_2_@g_re
+vjudge_rest
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 D2Foocj`nSBF?FUDEcoO03
+ImoV>N7nPKcA>XM_?lI1BS0
+R0
+w1667702981
+8D:/hdmi_final/source/source/judge_rest.v
+FD:/hdmi_final/source/source/judge_rest.v
+L0 1
+R2
+!s108 1667906780.689000
+!s107 D:/hdmi_final/source/source/judge_rest.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/judge_rest.v|-work|work|
+!i113 0
+R3
+vled
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Gccoz^[l>3^04DhKFmAAo0
+IGXZSiFnd55cgWAWg_O]^L2
+R0
+w1667634548
+8D:/hdmi_final/source/source/led.v
+FD:/hdmi_final/source/source/led.v
+L0 1
+R2
+!s108 1667906780.548000
+!s107 D:/hdmi_final/source/source/led.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/led.v|-work|work|
+!i113 0
+R3
+vled_top
+R4
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 PKH8`LAZ@17PJ9>T]5`8D0
+I6_C@j3d87`XU>gdW8XDzl1
+!s105 led_top_sv_unit
+S1
+R0
+w1667700772
+8D:/hdmi_final/source/source/led_top.sv
+FD:/hdmi_final/source/source/led_top.sv
+R5
+R2
+!s108 1667906780.188000
+!s107 D:/hdmi_final/source/source/led_top.sv|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/led_top.sv|-work|work|
+!i113 0
+R3
+voutputdata
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 8inda1h[=df<oTeUoX=7:3
+I;?`z]5^jQZ73YmCHgE0kL1
+R0
+w1667634522
+8D:/hdmi_final/source/source/outputdata.v
+FD:/hdmi_final/source/source/outputdata.v
+L0 1
+R2
+!s108 1667906780.353000
+!s107 D:/hdmi_final/source/source/outputdata.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/outputdata.v|-work|work|
+!i113 0
+R3
+vpanduan
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 `AHeXRY6EQckfYj?TK[Y:2
+IOJ7aJTS]S^G5_U`2<C@O^3
+R0
+w1667632414
+8D:/hdmi_final/source/source/panduan.v
+FD:/hdmi_final/source/source/panduan.v
+R5
+R2
+!s108 1667906780.516000
+!s107 D:/hdmi_final/source/source/panduan.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/panduan.v|-work|work|
+!i113 0
+R3
+vregister
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 =2M`Y1o:ZjMYdk4S4o3J_2
+Iz?m8_CNZhzUW;hb3e;ZbM2
+R0
+w1667797204
+8D:/hdmi_final/source/source/register.v
+FD:/hdmi_final/source/source/register.v
+R5
+R2
+!s108 1667906780.582000
+!s107 D:/hdmi_final/source/source/register.v|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/register.v|-work|work|
+!i113 0
+R3
+vtop
+R4
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 RSU`0^b=HF4K4]oEg_cBI1
+ILi5X::LWe>aRDG;_mlZUW0
+!s105 top_sv_unit
+S1
+R0
+w1667797403
+8D:/hdmi_final/source/source/top.sv
+FD:/hdmi_final/source/source/top.sv
+R5
+R2
+!s108 1667906780.652000
+!s107 D:/hdmi_final/source/source/top.sv|
+!s90 -reportprogress|300|D:/hdmi_final/source/source/top.sv|-work|work|
+!i113 0
+R3

@@ -1,0 +1,143 @@
+# Reading D:/MODELSIM/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {run_post_pnr_func_compile.tcl}
+# ** Error: (vlib-35) Failed to create directory "work".
+# 
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet work ./work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet vsim D:/hdmi_final/pango_sim_libraries/vsim 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet adc D:/hdmi_final/pango_sim_libraries/adc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet ddrc D:/hdmi_final/pango_sim_libraries/ddrc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet ddrphy D:/hdmi_final/pango_sim_libraries/ddrphy 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet hsst_e2 D:/hdmi_final/pango_sim_libraries/hsst_e2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet iolhr_dft D:/hdmi_final/pango_sim_libraries/iolhr_dft 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet ipal_e1 D:/hdmi_final/pango_sim_libraries/ipal_e1 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet pciegen2 D:/hdmi_final/pango_sim_libraries/pciegen2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 19:38:05 on Nov 08,2022
+# vlog -reportprogress 300 top_sim.v -work work 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:38:06 on Nov 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 19:38:06 on Nov 08,2022
+# vlog -reportprogress 300 D:/hdmi_final/source/fin_sim.v -work work 
+# -- Compiling module final_sim
+# 
+# Top level modules:
+# 	final_sim
+# End time: 19:38:06 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# do {run_post_pnr_func_simulate.tcl}
+# vsim -gui -do "do {run_post_pnr_func_compile.tcl};do {run_post_pnr_func_simulate.tcl}" -l run_post_pnr_func.log 
+# Start time: 19:38:06 on Nov 08,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/hdmi_final/sim/pnr_func/work.final_sim
+# Loading work.final_sim
+# Refreshing D:/hdmi_final/sim/pnr_func/work.top
+# Loading work.top
+# Loading vsim.V_LUT5M
+# Loading vsim.V_LUT5
+# Loading vsim.V_BUF
+# Loading vsim.V_FFSYN
+# Loading vsim.V_LUT5CARRY
+# Loading vsim.V_MUX2
+# Loading vsim.V_FFASYN
+# Loading vsim.V_INV
+# Loading vsim.V_RAM16X1
+# Loading vsim.V_GRS
+# Loading vsim.V_IBUF
+# Loading vsim.V_OBUF
+# Loading vsim.V_PLL_E1
+# Loading vsim.V_USCM
+# Loading vsim.INT_LUTMUX4_UDP
+# Loading vsim.INT_LUTMUX2_UDP
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+run -all
+# Break key hit
+# Break in Module V_RAM16X1 at D:/pango/PDS_2021.1-SP7.3-ads/arch/vendor/pango/verilog/bsim/V_RAM16X1.v line 47
+run -all
+# Break key hit
+# Break in Module V_FFSYN at D:/pango/PDS_2021.1-SP7.3-ads/arch/vendor/pango/verilog/bsim/V_FFSYN.v line 54
+run -all
+# Break key hit
+# Break in Module V_FFSYN at D:/pango/PDS_2021.1-SP7.3-ads/arch/vendor/pango/verilog/bsim/V_FFSYN.v line 54
+run -all
+# Break key hit
+# Break in Module V_FFSYN at D:/pango/PDS_2021.1-SP7.3-ads/arch/vendor/pango/verilog/bsim/V_FFSYN.v line 54
+# Causality operation skipped due to absence of debug database file
+run -all
+# Break key hit
+# Break in Module V_PLL_E1 at D:/pango/PDS_2021.1-SP7.3-ads/arch/vendor/pango/verilog/bsim/V_PLL_E1.v line 1377
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run -all
+# Break key hit
+# Break in Module V_PLL_E1 at D:/pango/PDS_2021.1-SP7.3-ads/arch/vendor/pango/verilog/bsim/V_PLL_E1.v line 1377
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run -all
+# Break key hit
+# Break in Module V_PLL_E1 at D:/pango/PDS_2021.1-SP7.3-ads/arch/vendor/pango/verilog/bsim/V_PLL_E1.v line 1061
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run -all
+# Break key hit
+# Break in Module V_RAM16X1 at D:/pango/PDS_2021.1-SP7.3-ads/arch/vendor/pango/verilog/bsim/V_RAM16X1.v line 47
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run -all
+# Break key hit
+# Break in Module V_FFSYN at D:/pango/PDS_2021.1-SP7.3-ads/arch/vendor/pango/verilog/bsim/V_FFSYN.v line 54
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 21:07:41 on Nov 08,2022, Elapsed time: 1:29:35
+# Errors: 21, Warnings: 2
