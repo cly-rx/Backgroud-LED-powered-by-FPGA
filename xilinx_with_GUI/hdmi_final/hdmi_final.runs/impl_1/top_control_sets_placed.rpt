@@ -1,0 +1,258 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Nov  9 20:19:36 2022
+| Host         : DESKTOP-47517NI running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xczu3eg
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   180 |
+|    Minimum number of control sets                        |   180 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   115 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   180 |
+| >= 0 to < 4        |    21 |
+| >= 4 to < 6        |    20 |
+| >= 6 to < 8        |    19 |
+| >= 8 to < 10       |     5 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     5 |
+| >= 14 to < 16      |     1 |
+| >= 16              |   108 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            1434 |          296 |
+| No           | No                    | Yes                    |             102 |           93 |
+| No           | Yes                   | No                     |              46 |            8 |
+| Yes          | No                    | No                     |            2583 |          376 |
+| Yes          | No                    | Yes                    |             125 |           29 |
+| Yes          | Yes                   | No                     |             343 |           84 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------------------+---------------------------------------------------------------------------+------------------------------------------------------------------+------------------+----------------+--------------+
+|                     Clock Signal                    |                               Enable Signal                               |                         Set/Reset Signal                         | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------------------------------------+---------------------------------------------------------------------------+------------------------------------------------------------------+------------------+----------------+--------------+
+|  led_top_up/led_inst/outputdata_inst/addr_change    |                                                                           |                                                                  |                1 |              1 |         1.00 |
+|  led_top_left/led_inst/outputdata_inst/addr_change  |                                                                           |                                                                  |                1 |              1 |         1.00 |
+|  led_top_right/led_inst/outputdata_inst/addr_change |                                                                           |                                                                  |                1 |              1 |         1.00 |
+|  led_top_down/led_inst/outputdata_inst/addr_change  |                                                                           |                                                                  |                1 |              1 |         1.00 |
+|  instance_name/inst/clk_out1                        |                                                                           |                                                                  |                1 |              1 |         1.00 |
+| ~hdmi_clk_IBUF_BUFGCE                               |                                                                           | hdmi_input_inst/block_re_ch1/hdmi_vs                             |                1 |              1 |         1.00 |
+|  sys_clk_BUFG                                       |                                                                           | hdmi_vs_IBUF_inst/O                                              |                1 |              1 |         1.00 |
+| ~instance_name/inst/clk_out1                        |                                                                           | hdmi_hs_IBUF_BUFG                                                |                1 |              1 |         1.00 |
+|  instance_name/inst/clk_out1                        |                                                                           | hdmi_hs_IBUF_BUFG                                                |                1 |              1 |         1.00 |
+|  instance_name/inst/clk_out1                        | hdmi_input_inst/regester_inst/delay_c[1]_i_1_n_1                          |                                                                  |                1 |              2 |         2.00 |
+|  instance_name/inst/clk_out1                        | hdmi_input_inst/regester_inst/write_en_i_1_n_1                            |                                                                  |                1 |              2 |         2.00 |
+| ~instance_name/inst/clk_out1                        | hdmi_input_inst/delay_counter                                             | hdmi_hs_IBUF_BUFG                                                |                1 |              2 |         2.00 |
+|  led_clk/inst/clk_out1                              | led_top_down/led_inst/outputdata_inst/FSM_sequential_state[2]_i_1__1_n_1  |                                                                  |                1 |              3 |         3.00 |
+|  led_clk/inst/clk_out3                              | datarecieve_inst/uart_rx_inst/bit_cnt                                     |                                                                  |                2 |              3 |         1.50 |
+|  instance_name/inst/clk_out1                        | hdmi_input_inst/regester_inst/FSM_sequential_state[2]_i_1_n_1             | hdmi_input_inst/block_re_ch1/hdmi_vs                             |                1 |              3 |         3.00 |
+|  led_clk/inst/clk_out1                              | led_top_right/led_inst/outputdata_inst/FSM_sequential_state[2]_i_1__3_n_1 |                                                                  |                1 |              3 |         3.00 |
+| ~instance_name/inst/clk_out1                        | hdmi_input_inst/block_re_ch1/E[0]                                         | hdmi_hs_IBUF_BUFG                                                |                1 |              3 |         3.00 |
+|  led_clk/inst/clk_out1                              | led_top_left/led_inst/outputdata_inst/FSM_sequential_state[2]_i_1__2_n_1  |                                                                  |                1 |              3 |         3.00 |
+|  instance_name/inst/clk_out1                        | hdmi_input_inst/regester_inst/E[0]                                        | hdmi_hs_IBUF_BUFG                                                |                1 |              3 |         3.00 |
+|  led_clk/inst/clk_out1                              | led_top_up/led_inst/outputdata_inst/FSM_sequential_state[2]_i_1__0_n_1    |                                                                  |                1 |              3 |         3.00 |
+|  hdmi_clk_IBUF_BUFGCE                               |                                                                           |                                                                  |                2 |              3 |         1.50 |
+|  led_clk/inst/clk_out1                              | led_top_down/led_inst/outputdata_inst/counter[10]_i_1__0_n_1              | led_top_down/led_inst/outputdata_inst/counter[6]_i_1__0_n_1      |                2 |              4 |         2.00 |
+|  led_clk/inst/clk_out1                              | led_top_down/led_inst/outputdata_inst/counter2_1                          | led_top_down/led_inst/outputdata_inst/counter2[5]_i_1__0_n_1     |                2 |              4 |         2.00 |
+|  led_clk/inst/clk_out1                              | led_top_left/led_inst/outputdata_inst/counter[10]_i_1__1_n_1              | led_top_left/led_inst/outputdata_inst/counter[6]_i_1__1_n_1      |                2 |              4 |         2.00 |
+|  led_clk/inst/clk_out1                              | led_top_left/led_inst/outputdata_inst/counter2_1                          | led_top_left/led_inst/outputdata_inst/counter2[5]_i_1__1_n_1     |                2 |              4 |         2.00 |
+|  sys_clk_BUFG                                       | datarecieve_inst/uart_rx_inst/FSM_onehot_state_reg[2]_0                   |                                                                  |                1 |              4 |         4.00 |
+|  led_clk/inst/clk_out1                              | led_top_up/led_inst/outputdata_inst/counter2_1                            | led_top_up/led_inst/outputdata_inst/counter2[5]_i_1_n_1          |                1 |              4 |         4.00 |
+|  led_clk/inst/clk_out1                              | led_top_right/led_inst/outputdata_inst/counter2_1                         | led_top_right/led_inst/outputdata_inst/counter2[5]_i_1__2_n_1    |                1 |              4 |         4.00 |
+|  instance_name/inst/clk_out1                        | data_to_block_inst/FSM_onehot_state[3]_i_1__1_n_1                         | hdmi_vs_IBUF_inst/O                                              |                1 |              4 |         4.00 |
+|  sys_clk_BUFG                                       | hdmi_input_inst/E[0]                                                      | hdmi_vs_IBUF_inst/O                                              |                1 |              4 |         4.00 |
+|  led_clk/inst/clk_out1                              | led_top_right/led_inst/outputdata_inst/counter[10]_i_1__2_n_1             | led_top_right/led_inst/outputdata_inst/counter[6]_i_1__2_n_1     |                2 |              4 |         2.00 |
+|  led_clk/inst/clk_out1                              | led_top_up/led_inst/outputdata_inst/counter[10]_i_1_n_1                   | led_top_up/led_inst/outputdata_inst/counter[6]_i_1_n_1           |                2 |              4 |         2.00 |
+|  led_clk/inst/clk_out2                              | led_top_up/led_inst/outputdata_inst/small_counter                         | led_top_up/led_inst/small_counter[4]_i_1_n_1                     |                1 |              5 |         5.00 |
+|  led_clk/inst/clk_out2                              | led_top_down/led_inst/outputdata_inst/small_counter                       | led_top_down/led_inst/small_counter[4]_i_1__0_n_1                |                1 |              5 |         5.00 |
+|  led_clk/inst/clk_out2                              | led_top_right/led_inst/outputdata_inst/small_counter                      | led_top_right/led_inst/small_counter[4]_i_1__2_n_1               |                1 |              5 |         5.00 |
+|  led_clk/inst/clk_out1                              | led_top_up/led_inst/outputdata_inst/addr_counter_0                        |                                                                  |                2 |              5 |         2.50 |
+|  instance_name/inst/clk_out1                        | data_to_block_inst/counter[4]_i_1_n_1                                     |                                                                  |                1 |              5 |         5.00 |
+|  led_clk/inst/clk_out1                              | led_top_right/led_inst/outputdata_inst/addr_counter_0                     |                                                                  |                1 |              5 |         5.00 |
+|  led_clk/inst/clk_out2                              | led_top_left/led_inst/outputdata_inst/small_counter                       | led_top_left/led_inst/small_counter[4]_i_1__1_n_1                |                1 |              5 |         5.00 |
+|  led_clk/inst/clk_out1                              | led_top_down/led_inst/outputdata_inst/addr_counter_0                      |                                                                  |                1 |              5 |         5.00 |
+|  led_clk/inst/clk_out1                              | led_top_left/led_inst/outputdata_inst/addr_counter_0                      |                                                                  |                2 |              5 |         2.50 |
+|  led_clk/inst/clk_out2                              | led_top_up/led_inst/outputdata_inst/num_counter                           | led_top_up/led_inst/num_counter[5]_i_1_n_1                       |                1 |              6 |         6.00 |
+|  led_clk/inst/clk_out2                              | led_top_down/led_inst/outputdata_inst/num_counter                         | led_top_down/led_inst/num_counter[5]_i_1__0_n_1                  |                1 |              6 |         6.00 |
+|  led_clk/inst/clk_out2                              | led_top_left/led_inst/outputdata_inst/num_counter                         | led_top_left/led_inst/num_counter[5]_i_1__1_n_1                  |                1 |              6 |         6.00 |
+|  sys_clk_BUFG                                       |                                                                           |                                                                  |                3 |              6 |         2.00 |
+|  led_clk/inst/clk_out2                              | led_top_right/led_inst/outputdata_inst/num_counter                        | led_top_right/led_inst/num_counter[5]_i_1__2_n_1                 |                2 |              6 |         3.00 |
+|  instance_name/inst/clk_out1                        | hdmi_input_inst/waitingcounter                                            | hdmi_hs_IBUF_BUFG                                                |                2 |              6 |         3.00 |
+| ~hdmi_hs_IBUF_BUFG                                  |                                                                           | hdmi_vs_IBUF_inst/O                                              |                1 |              6 |         6.00 |
+|  led_clk/inst/clk_out1                              | led_top_left/led_inst/outputdata_inst/counter2_1                          |                                                                  |                3 |              7 |         2.33 |
+|  instance_name/inst/clk_out1                        | hdmi_input_inst/regester_inst/read_addr                                   | hdmi_input_inst/block_re_ch1/hdmi_vs                             |                1 |              7 |         7.00 |
+|  led_clk/inst/clk_out1                              | led_top_left/led_inst/outputdata_inst/counter[10]_i_1__1_n_1              |                                                                  |                3 |              7 |         2.33 |
+|  led_clk/inst/clk_out1                              | led_top_right/led_inst/outputdata_inst/counter2_1                         |                                                                  |                3 |              7 |         2.33 |
+|  led_clk/inst/clk_out1                              | led_top_down/led_inst/outputdata_inst/counter2_1                          |                                                                  |                2 |              7 |         3.50 |
+|  led_clk/inst/clk_out1                              | led_top_down/led_inst/outputdata_inst/counter[10]_i_1__0_n_1              |                                                                  |                2 |              7 |         3.50 |
+|  instance_name/inst/clk_out1                        | hdmi_input_inst/regester_inst/addr                                        | hdmi_input_inst/block_re_ch1/hdmi_vs                             |                1 |              7 |         7.00 |
+|  instance_name/inst/clk_out1                        | hdmi_input_inst/regester_inst/counter[5]_i_1__3_n_1                       |                                                                  |                2 |              7 |         3.50 |
+|  led_clk/inst/clk_out1                              | led_top_up/led_inst/outputdata_inst/counter[10]_i_1_n_1                   |                                                                  |                3 |              7 |         2.33 |
+|  led_clk/inst/clk_out1                              | led_top_up/led_inst/outputdata_inst/counter2_1                            |                                                                  |                2 |              7 |         3.50 |
+|  led_clk/inst/clk_out1                              | led_top_right/led_inst/outputdata_inst/counter[10]_i_1__2_n_1             |                                                                  |                3 |              7 |         2.33 |
+| ~hdmi_hs_IBUF_BUFG                                  | hdmi_input_inst/regester_inst/sel                                         | hdmi_vs_IBUF_inst/O                                              |                5 |              7 |         1.40 |
+|  led_clk/inst/clk_out3                              |                                                                           |                                                                  |                4 |              9 |         2.25 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_94                                        | cal_block3/Rdata[6]_i_1_n_1                                      |                4 |              9 |         2.25 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_93                                        | cal_block1/Rdata[6]_i_1_n_1                                      |                5 |              9 |         1.80 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_5                                         | cal_block2/Rdata[6]_i_1_n_1                                      |                4 |              9 |         2.25 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_6                                         | cal_block4/Rdata[6]_i_1_n_1                                      |                2 |              9 |         4.50 |
+|  instance_name/inst/clk_out1                        | hdmi_input_inst/row_block_counter                                         | hdmi_hs_IBUF_BUFG                                                |                4 |             11 |         2.75 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_6                                         |                                                                  |                5 |             12 |         2.40 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_5                                         |                                                                  |                6 |             12 |         2.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_94                                        |                                                                  |                6 |             12 |         2.00 |
+|  led_clk/inst/clk_out1                              |                                                                           |                                                                  |                9 |             12 |         1.33 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_93                                        |                                                                  |                8 |             12 |         1.50 |
+|  led_clk/inst/clk_out3                              |                                                                           | datarecieve_inst/uart_rx_inst/cycle_cnt[15]_i_1_n_1              |                4 |             15 |         3.75 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_65[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  led_clk/inst/clk_out2                              | led_top_up/led_inst/GRB_buffer                                            |                                                                  |                4 |             24 |         6.00 |
+|  led_clk/inst/clk_out2                              | led_top_down/led_inst/GRB_buffer                                          |                                                                  |                4 |             24 |         6.00 |
+|  led_clk/inst/clk_out2                              | led_top_left/led_inst/GRB_buffer                                          |                                                                  |                3 |             24 |         8.00 |
+|  led_clk/inst/clk_out2                              | led_top_right/led_inst/GRB_buffer                                         |                                                                  |                5 |             24 |         4.80 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_80[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_83[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_90[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_91[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_81[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_28[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_47[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_15[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_27[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_24[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_16[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_26[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_23[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_48[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_19[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_17[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_2[0]                                      |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_13[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_22[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_0[0]                                      |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_21[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_30[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_34[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_1[0]                                      |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_31[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_14[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_35[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_32[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_37[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_39[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_4[0]                                      |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_20[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_40[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_43[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_45[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_12[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_3[0]                                      |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_29[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_36[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_18[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_41[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_44[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg[0]                                        |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_11[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_10[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_25[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_33[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_38[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_42[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_46[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_60[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_52[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_69[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_78[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_53[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_68[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_55[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_84[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_67[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_77[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_64[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_82[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_62[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_73[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_49[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_59[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_76[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_51[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_86[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_9[0]                                      |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_79[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_92[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_8[0]                                      |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_54[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_85[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_71[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_74[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_87[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_63[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_88[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_89[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_66[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_7[0]                                      |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_50[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_70[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_58[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_75[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_61[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_72[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_57[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  d_ok_BUFG                                          | hdmi_input_inst/block_reset_reg_56[0]                                     |                                                                  |                3 |             24 |         8.00 |
+|  hdmi_clk_IBUF_BUFGCE                               |                                                                           | led_test                                                         |                4 |             31 |         7.75 |
+|  instance_name/inst/clk_out1                        | hdmi_input_inst/regester_inst/out[56]_i_2_n_1                             | hdmi_input_inst/regester_inst/out[56]_i_1_n_1                    |               13 |             48 |         3.69 |
+|  instance_name/inst/clk_out1                        | hdmi_input_inst/regester_inst/inside[59]_i_1_n_1                          |                                                                  |               13 |             60 |         4.62 |
+|  instance_name/inst/clk_out1                        | hdmi_input_inst/regester_inst/in[59]_i_2_n_1                              | hdmi_input_inst/regester_inst/in[59]_i_1_n_1                     |                8 |             60 |         7.50 |
+|  hdmi_clk_IBUF_BUFGCE                               | hdmi_input_inst/block_re_ch1/ready                                        |                                                                  |                9 |             60 |         6.67 |
+| ~instance_name/inst/clk_out1                        | hdmi_input_inst/block_re_ch1/FSM_onehot_re_buffer_state_reg[0]            | hdmi_input_inst/block_re_ch1/FSM_onehot_re_buffer_state_reg[0]_0 |                7 |             60 |         8.57 |
+|  instance_name/inst/clk_out1                        | data_to_block_inst/databuffer[23]_i_2_n_1                                 | data_to_block_inst/databuffer[23]_i_1_n_1                        |               18 |             63 |         3.50 |
+| ~hdmi_clk_IBUF_BUFGCE                               | hdmi_input_inst/block_re_ch1/state                                        | hdmi_input_inst/block_re_ch1/hdmi_vs                             |               11 |             68 |         6.18 |
+| ~hdmi_vs_IBUF_BUFG                                  |                                                                           |                                                                  |               44 |             84 |         1.91 |
+|  d_ok_BUFG                                          |                                                                           | block_reset                                                      |               88 |             92 |         1.05 |
+|  led_clk/inst/clk_out2                              |                                                                           |                                                                  |               73 |            112 |         1.53 |
+| ~instance_name/inst/clk_out1                        |                                                                           |                                                                  |              158 |           1203 |         7.61 |
++-----------------------------------------------------+---------------------------------------------------------------------------+------------------------------------------------------------------+------------------+----------------+--------------+
+
+

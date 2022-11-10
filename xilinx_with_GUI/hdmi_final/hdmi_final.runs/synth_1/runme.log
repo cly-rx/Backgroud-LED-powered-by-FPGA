@@ -1,0 +1,1058 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xczu3eg-sfvc784-1-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Device 21-403] Loading part xczu3eg-sfvc784-1-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3688
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1527.121 ; gain = 123.230
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/top.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0000101 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0000101 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up' (1#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized0' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0001000 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized0' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0001000 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized0' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized0' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized1' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0001011 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized1' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0001011 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized1' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized1' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized2' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0001110 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized2' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0001110 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized2' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized2' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized3' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0010001 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized3' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0010001 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized3' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized3' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized4' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0010100 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized4' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0010100 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized4' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized4' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized5' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0010111 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized5' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0010111 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized5' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized5' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized6' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0011010 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized6' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0011010 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized6' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized6' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized7' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0011101 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized7' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0011101 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized7' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized7' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized8' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0100000 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized8' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0100000 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized8' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized8' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized9' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0100011 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized9' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0100011 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized9' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized9' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized10' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0100110 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized10' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0100110 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized10' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized10' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized11' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0101001 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized11' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0101001 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized11' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized11' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized12' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0101100 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized12' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0101100 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized12' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized12' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized13' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0101111 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized13' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0101111 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized13' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized13' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized14' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0110010 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized14' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0110010 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized14' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized14' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized15' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0110101 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized15' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0110101 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized15' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized15' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized16' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0111000 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized16' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0111000 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized16' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized16' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized17' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0111011 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized17' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0111011 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized17' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized17' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized18' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0111110 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized18' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b0111110 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized18' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized18' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized19' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b1000001 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized19' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b1000001 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized19' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized19' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized20' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b1000100 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized20' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b1000100 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized20' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized20' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized21' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b1000111 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized21' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b1000111 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized21' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized21' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized22' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b1001010 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized22' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b1001010 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized22' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized22' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized23' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b1001101 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized23' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b1001101 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized23' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized23' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized24' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b1010000 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized24' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b1010000 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized24' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized24' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized25' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b1010011 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized25' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b1010011 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized25' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized25' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized26' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b1010110 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized26' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b1010110 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized26' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized26' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized27' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b1011001 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized27' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b1011001 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized27' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized27' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized28' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b1011100 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_up__parameterized28' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+	Parameter ID bound to: 7'b1011100 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_up__parameterized28' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfig.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized28' (2#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized29' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0000101 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0000101 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized29' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized30' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0001000 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized0' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0001000 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized0' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized30' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized31' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0001011 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized1' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0001011 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized1' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized31' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized32' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0001110 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized2' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0001110 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized2' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized32' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized33' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0010001 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized3' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0010001 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized3' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized33' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized34' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0010100 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized4' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0010100 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized4' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized34' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized35' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0010111 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized5' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0010111 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized5' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized35' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized36' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0011010 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized6' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0011010 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized6' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized36' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized37' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0011101 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized7' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0011101 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized7' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized37' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized38' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0100000 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized8' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0100000 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized8' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized38' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized39' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0100011 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized9' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0100011 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized9' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized39' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized40' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0100110 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized10' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0100110 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized10' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized40' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized41' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0101001 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized11' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0101001 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized11' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized41' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized42' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0101100 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized12' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0101100 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized12' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized42' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized43' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0101111 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized13' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0101111 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized13' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized43' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized44' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0110010 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized14' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0110010 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized14' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized44' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized45' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0110101 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized15' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0110101 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized15' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized45' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized46' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0111000 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized16' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0111000 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized16' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized46' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized47' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0111011 
+INFO: [Synth 8-6157] synthesizing module 'areaconfig_down__parameterized17' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+	Parameter ID bound to: 7'b0111011 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized17' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized47' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'cal_block__parameterized48' [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0111110 
+	Parameter ID bound to: 7'b0111110 
+INFO: [Synth 8-6155] done synthesizing module 'areaconfig_down__parameterized18' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/areaconfi2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'cal_block__parameterized48' (3#1) [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:23]
+INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b1000001 
+	Parameter ID bound to: 7'b1000001 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b1000100 
+	Parameter ID bound to: 7'b1000100 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b1000111 
+	Parameter ID bound to: 7'b1000111 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b1001010 
+	Parameter ID bound to: 7'b1001010 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b1001101 
+	Parameter ID bound to: 7'b1001101 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b1010000 
+	Parameter ID bound to: 7'b1010000 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b1010011 
+	Parameter ID bound to: 7'b1010011 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b1010110 
+	Parameter ID bound to: 7'b1010110 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b1011001 
+	Parameter ID bound to: 7'b1011001 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b1011100 
+	Parameter ID bound to: 7'b1011100 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0000011 
+	Parameter ID bound to: 7'b0000011 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0000110 
+	Parameter ID bound to: 7'b0000110 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0001001 
+	Parameter ID bound to: 7'b0001001 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0001100 
+	Parameter ID bound to: 7'b0001100 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0001111 
+	Parameter ID bound to: 7'b0001111 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0010010 
+	Parameter ID bound to: 7'b0010010 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0010101 
+	Parameter ID bound to: 7'b0010101 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0011000 
+	Parameter ID bound to: 7'b0011000 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0011011 
+	Parameter ID bound to: 7'b0011011 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0011110 
+	Parameter ID bound to: 7'b0011110 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0100001 
+	Parameter ID bound to: 7'b0100001 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0100100 
+	Parameter ID bound to: 7'b0100100 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0100111 
+	Parameter ID bound to: 7'b0100111 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0101010 
+	Parameter ID bound to: 7'b0101010 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0101101 
+	Parameter ID bound to: 7'b0101101 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0110000 
+	Parameter ID bound to: 7'b0110000 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0000011 
+	Parameter ID bound to: 7'b0000011 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0000110 
+	Parameter ID bound to: 7'b0000110 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0001001 
+	Parameter ID bound to: 7'b0001001 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0001100 
+	Parameter ID bound to: 7'b0001100 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0001111 
+	Parameter ID bound to: 7'b0001111 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0010010 
+	Parameter ID bound to: 7'b0010010 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0010101 
+	Parameter ID bound to: 7'b0010101 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0011000 
+	Parameter ID bound to: 7'b0011000 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0011011 
+	Parameter ID bound to: 7'b0011011 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0011110 
+	Parameter ID bound to: 7'b0011110 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0100001 
+	Parameter ID bound to: 7'b0100001 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0100100 
+	Parameter ID bound to: 7'b0100100 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0100111 
+	Parameter ID bound to: 7'b0100111 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0101010 
+	Parameter ID bound to: 7'b0101010 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0101101 
+	Parameter ID bound to: 7'b0101101 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0110000 
+	Parameter ID bound to: 7'b0110000 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block.sv:147]
+INFO: [Synth 8-226] default block is never used [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/re_top.v:84]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/reg.v:49]
+INFO: [Synth 8-226] default block is never used [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/reg.v:70]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/block_re.v:103]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/register.v:75]
+INFO: [Synth 8-226] default block is never used [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/hdmi_input.v:220]
+	Parameter location bound to: 2'b10 
+	Parameter self_addr bound to: 7'b0000000 
+	Parameter f_row bound to: 7'b0000001 
+	Parameter f_col bound to: 7'b0000001 
+	Parameter s_colleft bound to: 7'b0000001 
+	Parameter s_rowup bound to: 7'b0000001 
+	Parameter s_colright bound to: 7'b0000011 
+	Parameter s_rowdown bound to: 7'b0000010 
+	Parameter t_rowup bound to: 7'b0000001 
+	Parameter t_rowdown bound to: 7'b0000011 
+	Parameter t_colleft bound to: 7'b0000001 
+	Parameter t_colright bound to: 7'b0000011 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block_rest.v:174]
+	Parameter location bound to: 2'b11 
+	Parameter self_addr bound to: 7'b0000000 
+	Parameter f_row bound to: 7'b0000001 
+	Parameter f_col bound to: 7'b1100000 
+	Parameter s_colleft bound to: 7'b1011111 
+	Parameter s_rowup bound to: 7'b0000001 
+	Parameter s_colright bound to: 7'b1100000 
+	Parameter s_rowdown bound to: 7'b0000010 
+	Parameter t_rowup bound to: 7'b0000001 
+	Parameter t_rowdown bound to: 7'b0000011 
+	Parameter t_colleft bound to: 7'b1011110 
+	Parameter t_colright bound to: 7'b1100000 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block_rest.v:174]
+	Parameter location bound to: 2'b00 
+	Parameter self_addr bound to: 7'b0000000 
+	Parameter f_row bound to: 7'b0110101 
+	Parameter f_col bound to: 7'b0000001 
+	Parameter s_colleft bound to: 7'b0000001 
+	Parameter s_rowup bound to: 7'b0110011 
+	Parameter s_colright bound to: 7'b0000010 
+	Parameter s_rowdown bound to: 7'b0110101 
+	Parameter t_rowup bound to: 7'b0110100 
+	Parameter t_rowdown bound to: 7'b0110101 
+	Parameter t_colleft bound to: 7'b0000001 
+	Parameter t_colright bound to: 7'b0000011 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block_rest.v:174]
+	Parameter location bound to: 2'b01 
+	Parameter self_addr bound to: 7'b0000000 
+	Parameter f_row bound to: 7'b0110101 
+	Parameter f_col bound to: 7'b1100000 
+	Parameter s_colleft bound to: 7'b1011111 
+	Parameter s_rowup bound to: 7'b0110100 
+	Parameter s_colright bound to: 7'b1100000 
+	Parameter s_rowdown bound to: 7'b0110101 
+	Parameter t_rowup bound to: 7'b0110011 
+	Parameter t_rowdown bound to: 7'b0110101 
+	Parameter t_colleft bound to: 7'b1011110 
+	Parameter t_colright bound to: 7'b1100000 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/cal_block_rest.v:174]
+	Parameter data_num bound to: 6'b100000 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga project/hdmi_final/hdmi_final.srcs/sources_1/new/led_top.sv:54]
+INFO: [Common 17-14] Message 'Synth 8-155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter ADDR_WIDTH bound to: 6'b100000 
+	Parameter LEDNUM bound to: 6'b100000 
+	Parameter data_num bound to: 6'b010000 
+	Parameter ADDR_WIDTH bound to: 6'b010000 
+	Parameter LEDNUM bound to: 6'b010000 
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1677.492 ; gain = 273.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1699.402 ; gain = 295.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1699.402 ; gain = 295.512
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.174 . Memory (MB): peak = 1711.453 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'hdmi_input_inst/G'
+Finished Parsing XDC File [d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'hdmi_input_inst/G'
+Parsing XDC File [d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'hdmi_input_inst/B'
+Finished Parsing XDC File [d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'hdmi_input_inst/B'
+Parsing XDC File [d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'hdmi_input_inst/R'
+Finished Parsing XDC File [d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'hdmi_input_inst/R'
+Parsing XDC File [d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'instance_name'
+Finished Parsing XDC File [d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'instance_name'
+Parsing XDC File [d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'hdmi_input_inst/regester_inst/your_instance_name'
+Finished Parsing XDC File [d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'hdmi_input_inst/regester_inst/your_instance_name'
+Parsing XDC File [d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/clk_wiz_2/clk_wiz_2/clk_wiz_2_in_context.xdc] for cell 'led_clk'
+Finished Parsing XDC File [d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/clk_wiz_2/clk_wiz_2/clk_wiz_2_in_context.xdc] for cell 'led_clk'
+Parsing XDC File [D:/fpga project/hdmi_final/hdmi_final.srcs/constrs_1/new/XDC.xdc]
+WARNING: [Vivado 12-507] No nets matched 'hdmi_clk_IBUF_BUFGCE'. [D:/fpga project/hdmi_final/hdmi_final.srcs/constrs_1/new/XDC.xdc:75]
+WARNING: [Vivado 12-507] No nets matched 'hdmi_clk_IBUF_inst/O'. [D:/fpga project/hdmi_final/hdmi_final.srcs/constrs_1/new/XDC.xdc:76]
+WARNING: [Vivado 12-507] No nets matched 'hdmi_vs_IBUF_inst/O'. [D:/fpga project/hdmi_final/hdmi_final.srcs/constrs_1/new/XDC.xdc:77]
+Finished Parsing XDC File [D:/fpga project/hdmi_final/hdmi_final.srcs/constrs_1/new/XDC.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/fpga project/hdmi_final/hdmi_final.srcs/constrs_1/new/XDC.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/fpga project/hdmi_final/hdmi_final.srcs/constrs_1/new/XDC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1829.625 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1829.625 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '1000.000' specified during out-of-context synthesis of instance 'hdmi_input_inst/B' at clock pin 'aclk' is different from the actual clock period '3.367', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '1000.000' specified during out-of-context synthesis of instance 'hdmi_input_inst/G' at clock pin 'aclk' is different from the actual clock period '3.367', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '1000.000' specified during out-of-context synthesis of instance 'hdmi_input_inst/R' at clock pin 'aclk' is different from the actual clock period '3.367', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'hdmi_input_inst/regester_inst/your_instance_name' at clock pin 'clka' is different from the actual clock period '3.367', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 1829.625 ; gain = 425.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sfvc784-1-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 1829.625 ; gain = 425.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for hdmi_clk. (constraint file  {d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for hdmi_clk. (constraint file  {d:/fpga project/hdmi_final/hdmi_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 5).
+Applied set_property KEEP_HIERARCHY = SOFT for hdmi_input_inst/B. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for hdmi_input_inst/G. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for hdmi_input_inst/R. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for instance_name. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for hdmi_input_inst/regester_inst/your_instance_name. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for led_clk. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 1829.625 ; gain = 425.734
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_rx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'datarecieve'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'block_re'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'register'
+INFO: [Synth 8-802] inferred FSM for state register 're_buffer_state_reg' in module 'hdmi_input'
+INFO: [Synth 8-802] inferred FSM for state register 'div_state_reg' in module 'hdmi_input'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'data_to_block'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'outputdata'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'led'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'led__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                            00001 |                              001
+                 S_START |                            10000 |                              010
+              S_REC_BYTE |                            01000 |                              011
+                  S_STOP |                            00100 |                              100
+                  S_DATA |                            00010 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'uart_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                               00
+                 waiting |                             0010 |                               01
+            colour_judge |                             0100 |                               10
+            data_recieve |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'datarecieve'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  normal |                                0 |                               01
+                    zero |                                1 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'block_re'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              000 |                             0000
+                 waiting |                              001 |                             0001
+                   judge |                              010 |                             0010
+                 dataout |                              011 |                             0101
+                   delay |                              100 |                             0110
+                   write |                              101 |                             0011
+                    read |                              110 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'register'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                wait_for |                              001 |                               00
+             calculating |                              010 |                               01
+              sendingout |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'div_state_reg' using encoding 'one-hot' in module 'hdmi_input'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 waiting |                              001 |                               00
+               recieving |                              010 |                               01
+                   delay |                              100 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 're_buffer_state_reg' using encoding 'one-hot' in module 'hdmi_input'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                              000
+                 waiting |                             0010 |                              001
+                changing |                             0100 |                              010
+              controling |                             1000 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'data_to_block'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 waiting |                              000 |                             0000
+                   judge |                              001 |                             0001
+                  judge2 |                              010 |                             0010
+                     out |                              011 |                             0011
+                    out2 |                              100 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'outputdata'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 waiting |                               00 |                             0000
+                 working |                               01 |                             0001
+                   delay |                               10 |                             0010
+            wait_forsend |                               11 |                             0011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'led'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 waiting |                               00 |                             0000
+                 working |                               01 |                             0001
+                   delay |                               10 |                             0010
+            wait_forsend |                               11 |                             0011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'led__parameterized0'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1829.625 ; gain = 425.734
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'datarecieve_inst/G_inst' (re) to 'datarecieve_inst/B_inst'
+INFO: [Synth 8-223] decloning instance 'datarecieve_inst/G_inst' (re) to 'datarecieve_inst/R_inst'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   20 Bit       Adders := 6     
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 8     
+	   2 Input   10 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 288   
+	   2 Input    7 Bit       Adders := 4     
+	   2 Input    6 Bit       Adders := 8     
+	   2 Input    5 Bit       Adders := 9     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 2     
++---Registers : 
+	               60 Bit    Registers := 4     
+	               32 Bit    Registers := 1     
+	               24 Bit    Registers := 13    
+	               20 Bit    Registers := 6     
+	               16 Bit    Registers := 1     
+	               11 Bit    Registers := 8     
+	               10 Bit    Registers := 3     
+	                8 Bit    Registers := 290   
+	                7 Bit    Registers := 4     
+	                6 Bit    Registers := 8     
+	                5 Bit    Registers := 9     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 146   
++---Muxes : 
+	   2 Input   60 Bit        Muxes := 2     
+	   7 Input   60 Bit        Muxes := 3     
+	   3 Input   60 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 1     
+	   4 Input   24 Bit        Muxes := 1     
+	   2 Input   20 Bit        Muxes := 3     
+	   2 Input   16 Bit        Muxes := 1     
+	   4 Input   11 Bit        Muxes := 8     
+	   2 Input   11 Bit        Muxes := 8     
+	   4 Input    8 Bit        Muxes := 288   
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 2     
+	   2 Input    6 Bit        Muxes := 5     
+	   7 Input    6 Bit        Muxes := 1     
+	   3 Input    6 Bit        Muxes := 1     
+	   4 Input    6 Bit        Muxes := 4     
+	   5 Input    5 Bit        Muxes := 5     
+	   2 Input    5 Bit        Muxes := 10    
+	   4 Input    5 Bit        Muxes := 4     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 14    
+	   5 Input    3 Bit        Muxes := 6     
+	   7 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 6     
+	   4 Input    2 Bit        Muxes := 13    
+	   4 Input    1 Bit        Muxes := 248   
+	   2 Input    1 Bit        Muxes := 42    
+	  11 Input    1 Bit        Muxes := 1     
+	   7 Input    1 Bit        Muxes := 12    
+	   3 Input    1 Bit        Muxes := 8     
+	  25 Input    1 Bit        Muxes := 4     
+	   5 Input    1 Bit        Muxes := 44    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1829.625 ; gain = 425.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 2267.086 ; gain = 863.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 2303.977 ; gain = 900.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 2497.035 ; gain = 1093.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 2511.453 ; gain = 1107.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 2511.453 ; gain = 1107.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2511.453 ; gain = 1107.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2511.453 ; gain = 1107.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2511.453 ; gain = 1107.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2511.453 ; gain = 1107.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |clk_wiz_2     |         1|
+|3     |div_gen_0     |         3|
+|4     |blk_mem_gen_0 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |blk_mem_gen |     1|
+|2     |clk_wiz     |     2|
+|4     |div_gen     |     1|
+|5     |div_gen_0   |     2|
+|7     |BUFG        |     5|
+|8     |CARRY8      |   298|
+|9     |LUT1        |    35|
+|10    |LUT2        |  1022|
+|11    |LUT3        |  1259|
+|12    |LUT4        |   861|
+|13    |LUT5        |  1272|
+|14    |LUT6        |  2652|
+|15    |MUXF7       |   300|
+|16    |MUXF8       |    48|
+|17    |FDCE        |   223|
+|18    |FDPE        |     5|
+|19    |FDRE        |  3206|
+|20    |IBUF        |    28|
+|21    |IBUFDS      |     1|
+|22    |OBUF        |     7|
++------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2511.453 ; gain = 1107.562
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:43 . Memory (MB): peak = 2511.453 ; gain = 977.340
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2511.453 ; gain = 1107.562
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.213 . Memory (MB): peak = 2519.516 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 680 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2536.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 35 instances were transformed.
+  BUFG => BUFGCE: 5 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 29 instances
+  IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance 
+
+Synth Design complete, checksum: 8b37f14f
+INFO: [Common 17-83] Releasing license: Synthesis
+347 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 2536.348 ; gain = 1291.297
+INFO: [Common 17-1381] The checkpoint 'D:/fpga project/hdmi_final/hdmi_final.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  9 20:18:01 2022...

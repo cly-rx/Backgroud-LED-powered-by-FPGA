@@ -1,0 +1,64 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Nov  9 20:18:55 2022
+| Host         : DESKTOP-47517NI running 64-bit major release  (build 9200)
+| Command      : report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+| Design       : top
+| Device       : xczu3eg-sfvc784-1-i
+| Speed File   : -1
+| Design State : Synthesized
+------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 3
++-----------+----------+--------------------------------------+------------+
+| Rule      | Severity | Description                          | Violations |
++-----------+----------+--------------------------------------+------------+
+| PLCK-58   | Warning  | Clock Placer Checks                  | 2          |
+| REQP-1935 | Warning  | RAMB36E2_nochange_collision_advisory | 1          |
++-----------+----------+--------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PLCK-58#1 Warning
+Clock Placer Checks  
+Sub-optimal placement for a global clock-capable IO pin and BUFG pair.
+Resolution: A dedicated routing path between the two can be used if: (a) The global clock-capable IO (GCIO) is placed on a GCIO capable site (b) The BUFG is placed in the same bank of the device as the GCIO pin. Both the above conditions must be met at the same time, else it may lead to longer and less predictable clock insertion delays.
+ This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	hdmi_clk_IBUF_inst/IBUFCTRL_INST (in hdmi_clk_IBUF_inst macro) (IBUFCTRL.O) is locked to AE14
+	hdmi_clk_IBUF_BUFG_inst (BUFGCE.I) cannot be placed
+
+Related violations: <none>
+
+PLCK-58#2 Warning
+Clock Placer Checks  
+Sub-optimal placement for a global clock-capable IO pin and BUFG pair.
+Resolution: A dedicated routing path between the two can be used if: (a) The global clock-capable IO (GCIO) is placed on a GCIO capable site (b) The BUFG is placed in the same bank of the device as the GCIO pin. Both the above conditions must be met at the same time, else it may lead to longer and less predictable clock insertion delays.
+ This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	hdmi_vs_IBUF_inst/IBUFCTRL_INST (in hdmi_vs_IBUF_inst macro) (IBUFCTRL.O) is locked to AD10
+	hdmi_vs_IBUF_BUFG_inst (BUFGCE.I) cannot be placed
+
+Related violations: <none>
+
+REQP-1935#1 Warning
+RAMB36E2_nochange_collision_advisory  
+Synchronous clocking is detected for BRAM (hdmi_input_inst/regester_inst/your_instance_name/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+

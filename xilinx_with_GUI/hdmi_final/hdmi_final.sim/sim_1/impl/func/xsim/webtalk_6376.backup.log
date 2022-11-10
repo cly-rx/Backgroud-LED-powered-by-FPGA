@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Oct 31 09:24:59 2022
+# Process ID: 6376
+# Current directory: D:/fpga project/hdmi_final/hdmi_final.sim/sim_1/impl/func/xsim
+# Command line: wbtcv.exe -mode batch -source D:/fpga project/hdmi_final/hdmi_final.sim/sim_1/impl/func/xsim/xsim.dir/final_sim_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/fpga project/hdmi_final/hdmi_final.sim/sim_1/impl/func/xsim/webtalk.log
+# Journal file: D:/fpga project/hdmi_final/hdmi_final.sim/sim_1/impl/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/fpga -notrace
+couldn't read file "D:/fpga": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Mon Oct 31 09:24:59 2022...
